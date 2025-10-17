@@ -1,0 +1,58 @@
+# ========================================================
+#  GITIGNORE for Next.js + React + Plasmic projects
+# ========================================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+.cache/
+
+# Plasmic generated
+.plasmic/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+
+# IDEs and OS
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+
+# Temp
+tmp/
+temp/
+
+# ========================================================
+#  OPTIONAL: Uncomment these if needed
+# ========================================================
+# Storybook build output
+# storybook-static/
+
+# TypeScript build cache
+# *.tsbuildinfo
+
+# JetBrains
+# .idea/
+
+# Local SQLite / database files
+# *.db
+# *.sqlite
