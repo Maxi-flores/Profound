@@ -41,6 +41,10 @@ Desktop.ini
 tmp/
 temp/
 
+# Ignore backup or nested repos
+profound-clean/
+profound-clean-backup/
+
 # ========================================================
 #  OPTIONAL: Uncomment these if needed
 # ========================================================
