@@ -60,3 +60,4 @@ profound-clean-backup/
 # Local SQLite / database files
 # *.db
 # *.sqlite
+.vercel
