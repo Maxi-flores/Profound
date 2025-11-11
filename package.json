@@ -1,24 +1,37 @@
 {
   "name": "profound",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "description": "A modern Next.js + Plasmic web project for Profound Inc.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maxi-flores/profound.git"
+    "url": "https://github.com/Maxi-flores/Profound.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Next.js",
+    "React",
+    "Plasmic",
+    "WebApp",
+    "Vercel"
+  ],
+  "author": "Maxi Flores",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Maxi-flores/profound/issues"
+    "url": "https://github.com/Maxi-flores/Profound/issues"
   },
-  "homepage": "https://github.com/Maxi-flores/profound#readme",
+  "homepage": "https://github.com/Maxi-flores/Profound#readme",
   "dependencies": {
     "@plasmicapp/loader-nextjs": "^1.0.442",
+    "@plasmicapp/react-web": "^0.2.406",
+    "@plasmicpkgs/plasmic-embed-css": "^0.1.213",
+    "@plasmicpkgs/react-aria": "^0.0.155",
     "next": "^15.5.6",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"

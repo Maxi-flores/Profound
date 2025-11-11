@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+    "defaultStyleCssFilePath": "components/plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -16,7 +16,7 @@
   },
   "tokens": {
     "scheme": "theo",
-    "tokensFilePath": "plasmic-tokens.theo.json"
+    "tokensFilePath": "components/plasmic/plasmic-tokens.theo.json"
   },
   "srcDir": "components",
   "defaultPlasmicDir": "./plasmic",
@@ -26,15 +26,15 @@
       "projectApiToken": "34o5R5KswluuZ4sD83F88oQrcLWsNNeUpCptQ8Okf4hYqgjnHnX2idGAlhtB7WWQQelNAInf5XFazR1cGw",
       "projectName": "plasmic-embed-css",
       "version": ">0.0.0",
-      "cssFilePath": "plasmic/plasmic_embed_css/plasmic.module.css",
+      "cssFilePath": "components/plasmic/plasmic_embed_css/plasmic.module.css",
       "components": [],
       "icons": [],
       "images": [],
       "indirect": true,
-      "globalContextsFilePath": "plasmic/plasmic_embed_css/PlasmicGlobalContextsProvider.jsx",
+      "globalContextsFilePath": "components/plasmic/plasmic_embed_css/PlasmicGlobalContextsProvider.jsx",
       "splitsProviderFilePath": "",
-      "styleTokensProviderFilePath": "plasmic/plasmic_embed_css/PlasmicStyleTokensProvider.jsx",
-      "projectModuleFilePath": "plasmic/plasmic_embed_css/plasmic.jsx",
+      "styleTokensProviderFilePath": "components/plasmic/plasmic_embed_css/PlasmicStyleTokensProvider.jsx",
+      "projectModuleFilePath": "components/plasmic/plasmic_embed_css/plasmic.jsx",
       "codeComponents": [
         {
           "id": "qF0uJxFztB",
@@ -50,15 +50,15 @@
       "projectApiToken": "LBbn8U2dmbpX9oeuRsYNyEKki39EXydGQgs9vBvR5sLHfGEZsK4owvOj7Q7SnflW4ASIEdLFAeeoxGxXZ8dJtA",
       "projectName": "react-aria",
       "version": ">0.0.0",
-      "cssFilePath": "plasmic/react_aria/plasmic.module.css",
+      "cssFilePath": "components/plasmic/react_aria/plasmic.module.css",
       "components": [],
       "icons": [],
       "images": [],
       "indirect": true,
       "globalContextsFilePath": "",
       "splitsProviderFilePath": "",
-      "styleTokensProviderFilePath": "plasmic/react_aria/PlasmicStyleTokensProvider.jsx",
-      "projectModuleFilePath": "plasmic/react_aria/plasmic.jsx",
+      "styleTokensProviderFilePath": "components/plasmic/react_aria/PlasmicStyleTokensProvider.jsx",
+      "projectModuleFilePath": "components/plasmic/react_aria/plasmic.jsx",
       "codeComponents": [
         {
           "id": "QswWn7k1U7ET",
@@ -258,34 +258,20 @@
     {
       "projectId": "ddT7wfnzx79n44ty2Sa9LN",
       "projectApiToken": "O1wS9SbpuZPAgahGuShIzPhPQXsbKoeIcWIhschZyoewnpDHgtS8hOtmQRwLjxGOkmF6UdkzLnJTQ6HlFUJOVg",
-      "projectName": "PROFOUND.INC",
+      "projectName": "Profound",
       "version": "latest",
-      "cssFilePath": "plasmic/profound_inc/plasmic.module.css",
+      "cssFilePath": "components/plasmic/profound_inc/plasmic.module.css",
       "components": [
-        {
-          "id": "CjW_uf26hcT1",
-          "name": "UnnamedComponent",
-          "type": "managed",
-          "projectId": "ddT7wfnzx79n44ty2Sa9LN",
-          "renderModuleFilePath": "plasmic/profound_inc/PlasmicUnnamedComponent.jsx",
-          "importSpec": {
-            "modulePath": "../pages/index.jsx"
-          },
-          "cssFilePath": "plasmic/profound_inc/PlasmicUnnamedComponent.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/"
-        },
         {
           "id": "9xYtXO7cVVe8",
           "name": "Navbar",
           "type": "managed",
           "projectId": "ddT7wfnzx79n44ty2Sa9LN",
-          "renderModuleFilePath": "plasmic/profound_inc/PlasmicNavbar.jsx",
+          "renderModuleFilePath": "components/plasmic/profound_inc/PlasmicNavbar.jsx",
           "importSpec": {
             "modulePath": "Navbar.jsx"
           },
-          "cssFilePath": "plasmic/profound_inc/PlasmicNavbar.module.css",
+          "cssFilePath": "components/plasmic/profound_inc/PlasmicNavbar.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -294,11 +280,11 @@
           "name": "Logo",
           "type": "managed",
           "projectId": "ddT7wfnzx79n44ty2Sa9LN",
-          "renderModuleFilePath": "plasmic/profound_inc/PlasmicLogo.jsx",
+          "renderModuleFilePath": "components/plasmic/profound_inc/PlasmicLogo.jsx",
           "importSpec": {
             "modulePath": "Logo.jsx"
           },
-          "cssFilePath": "plasmic/profound_inc/PlasmicLogo.module.css",
+          "cssFilePath": "components/plasmic/profound_inc/PlasmicLogo.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -307,11 +293,11 @@
           "name": "FooterSection",
           "type": "managed",
           "projectId": "ddT7wfnzx79n44ty2Sa9LN",
-          "renderModuleFilePath": "plasmic/profound_inc/PlasmicFooterSection.jsx",
+          "renderModuleFilePath": "components/plasmic/profound_inc/PlasmicFooterSection.jsx",
           "importSpec": {
             "modulePath": "FooterSection.jsx"
           },
-          "cssFilePath": "plasmic/profound_inc/PlasmicFooterSection.module.css",
+          "cssFilePath": "components/plasmic/profound_inc/PlasmicFooterSection.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -320,11 +306,11 @@
           "name": "PriceCard",
           "type": "managed",
           "projectId": "ddT7wfnzx79n44ty2Sa9LN",
-          "renderModuleFilePath": "plasmic/profound_inc/PlasmicPriceCard.jsx",
+          "renderModuleFilePath": "components/plasmic/profound_inc/PlasmicPriceCard.jsx",
           "importSpec": {
             "modulePath": "PriceCard.jsx"
           },
-          "cssFilePath": "plasmic/profound_inc/PlasmicPriceCard.module.css",
+          "cssFilePath": "components/plasmic/profound_inc/PlasmicPriceCard.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -333,11 +319,11 @@
           "name": "Section",
           "type": "managed",
           "projectId": "ddT7wfnzx79n44ty2Sa9LN",
-          "renderModuleFilePath": "plasmic/profound_inc/PlasmicSection.jsx",
+          "renderModuleFilePath": "components/plasmic/profound_inc/PlasmicSection.jsx",
           "importSpec": {
             "modulePath": "Section.jsx"
           },
-          "cssFilePath": "plasmic/profound_inc/PlasmicSection.module.css",
+          "cssFilePath": "components/plasmic/profound_inc/PlasmicSection.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -346,11 +332,11 @@
           "name": "DiagramCard",
           "type": "managed",
           "projectId": "ddT7wfnzx79n44ty2Sa9LN",
-          "renderModuleFilePath": "plasmic/profound_inc/PlasmicDiagramCard.jsx",
+          "renderModuleFilePath": "components/plasmic/profound_inc/PlasmicDiagramCard.jsx",
           "importSpec": {
             "modulePath": "DiagramCard.jsx"
           },
-          "cssFilePath": "plasmic/profound_inc/PlasmicDiagramCard.module.css",
+          "cssFilePath": "components/plasmic/profound_inc/PlasmicDiagramCard.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -359,11 +345,11 @@
           "name": "ProductCard",
           "type": "managed",
           "projectId": "ddT7wfnzx79n44ty2Sa9LN",
-          "renderModuleFilePath": "plasmic/profound_inc/PlasmicProductCard.jsx",
+          "renderModuleFilePath": "components/plasmic/profound_inc/PlasmicProductCard.jsx",
           "importSpec": {
             "modulePath": "ProductCard.jsx"
           },
-          "cssFilePath": "plasmic/profound_inc/PlasmicProductCard.module.css",
+          "cssFilePath": "components/plasmic/profound_inc/PlasmicProductCard.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -372,11 +358,11 @@
           "name": "DetailAbout",
           "type": "managed",
           "projectId": "ddT7wfnzx79n44ty2Sa9LN",
-          "renderModuleFilePath": "plasmic/profound_inc/PlasmicDetailAbout.jsx",
+          "renderModuleFilePath": "components/plasmic/profound_inc/PlasmicDetailAbout.jsx",
           "importSpec": {
             "modulePath": "DetailAbout.jsx"
           },
-          "cssFilePath": "plasmic/profound_inc/PlasmicDetailAbout.module.css",
+          "cssFilePath": "components/plasmic/profound_inc/PlasmicDetailAbout.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -385,11 +371,11 @@
           "name": "PriceSection",
           "type": "managed",
           "projectId": "ddT7wfnzx79n44ty2Sa9LN",
-          "renderModuleFilePath": "plasmic/profound_inc/PlasmicPriceSection.jsx",
+          "renderModuleFilePath": "components/plasmic/profound_inc/PlasmicPriceSection.jsx",
           "importSpec": {
             "modulePath": "PriceSection.jsx"
           },
-          "cssFilePath": "plasmic/profound_inc/PlasmicPriceSection.module.css",
+          "cssFilePath": "components/plasmic/profound_inc/PlasmicPriceSection.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -398,11 +384,11 @@
           "name": "Button",
           "type": "managed",
           "projectId": "ddT7wfnzx79n44ty2Sa9LN",
-          "renderModuleFilePath": "plasmic/profound_inc/PlasmicButton.jsx",
+          "renderModuleFilePath": "components/plasmic/profound_inc/PlasmicButton.jsx",
           "importSpec": {
             "modulePath": "Button.jsx"
           },
-          "cssFilePath": "plasmic/profound_inc/PlasmicButton.module.css",
+          "cssFilePath": "components/plasmic/profound_inc/PlasmicButton.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -411,70 +397,196 @@
           "name": "Fdgdf",
           "type": "managed",
           "projectId": "ddT7wfnzx79n44ty2Sa9LN",
-          "renderModuleFilePath": "plasmic/profound_inc/PlasmicFdgdf.jsx",
+          "renderModuleFilePath": "components/plasmic/profound_inc/PlasmicFdgdf.jsx",
           "importSpec": {
             "modulePath": "Fdgdf.jsx"
           },
-          "cssFilePath": "plasmic/profound_inc/PlasmicFdgdf.module.css",
+          "cssFilePath": "components/plasmic/profound_inc/PlasmicFdgdf.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "CjW_uf26hcT1",
+          "name": "Home",
+          "type": "managed",
+          "projectId": "ddT7wfnzx79n44ty2Sa9LN",
+          "renderModuleFilePath": "components/plasmic/profound/PlasmicHome.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "components/plasmic/profound/PlasmicHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "RXrlg9-m6xxb",
+          "name": "About",
+          "type": "managed",
+          "projectId": "ddT7wfnzx79n44ty2Sa9LN",
+          "renderModuleFilePath": "components/plasmic/profound/PlasmicAbout.jsx",
+          "importSpec": {
+            "modulePath": "../pages/About.jsx"
+          },
+          "cssFilePath": "components/plasmic/profound/PlasmicAbout.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/About"
+        },
+        {
+          "id": "ZoyMU4tXQs68",
+          "name": "Service",
+          "type": "managed",
+          "projectId": "ddT7wfnzx79n44ty2Sa9LN",
+          "renderModuleFilePath": "components/plasmic/profound/PlasmicService.jsx",
+          "importSpec": {
+            "modulePath": "../pages/Service.jsx"
+          },
+          "cssFilePath": "components/plasmic/profound/PlasmicService.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Service"
+        },
+        {
+          "id": "X4_sOmcEP7hR",
+          "name": "Portfolio",
+          "type": "managed",
+          "projectId": "ddT7wfnzx79n44ty2Sa9LN",
+          "renderModuleFilePath": "components/plasmic/profound/PlasmicPortfolio.jsx",
+          "importSpec": {
+            "modulePath": "../pages/Portfolio.jsx"
+          },
+          "cssFilePath": "components/plasmic/profound/PlasmicPortfolio.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Portfolio"
+        },
+        {
+          "id": "iSqSCGvaD-pq",
+          "name": "Team",
+          "type": "managed",
+          "projectId": "ddT7wfnzx79n44ty2Sa9LN",
+          "renderModuleFilePath": "components/plasmic/profound/PlasmicTeam.jsx",
+          "importSpec": {
+            "modulePath": "../pages/Team.jsx"
+          },
+          "cssFilePath": "components/plasmic/profound/PlasmicTeam.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Team"
+        },
+        {
+          "id": "V98n_YcR95PK",
+          "name": "Blog",
+          "type": "managed",
+          "projectId": "ddT7wfnzx79n44ty2Sa9LN",
+          "renderModuleFilePath": "components/plasmic/profound/PlasmicBlog.jsx",
+          "importSpec": {
+            "modulePath": "../pages/Blog.jsx"
+          },
+          "cssFilePath": "components/plasmic/profound/PlasmicBlog.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Blog"
+        },
+        {
+          "id": "exnlUddEGxPl",
+          "name": "Contact",
+          "type": "managed",
+          "projectId": "ddT7wfnzx79n44ty2Sa9LN",
+          "renderModuleFilePath": "components/plasmic/profound/PlasmicContact.jsx",
+          "importSpec": {
+            "modulePath": "../pages/Contact.jsx"
+          },
+          "cssFilePath": "components/plasmic/profound/PlasmicContact.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Contact"
+        },
+        {
+          "id": "pMoBoC3K9pIT",
+          "name": "Login",
+          "type": "managed",
+          "projectId": "ddT7wfnzx79n44ty2Sa9LN",
+          "renderModuleFilePath": "components/plasmic/profound/PlasmicLogin.jsx",
+          "importSpec": {
+            "modulePath": "../pages/Login.jsx"
+          },
+          "cssFilePath": "components/plasmic/profound/PlasmicLogin.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Login"
+        },
+        {
+          "id": "Lm_SYCdb4S_l",
+          "name": "Profile",
+          "type": "managed",
+          "projectId": "ddT7wfnzx79n44ty2Sa9LN",
+          "renderModuleFilePath": "components/plasmic/profound/PlasmicProfile.jsx",
+          "importSpec": {
+            "modulePath": "../pages/Profile.jsx"
+          },
+          "cssFilePath": "components/plasmic/profound/PlasmicProfile.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Profile"
         }
       ],
       "icons": [
         {
           "id": "9GeQGYhApM3W",
           "name": "HamburgerIcon",
-          "moduleFilePath": "plasmic/profound_inc/icons/PlasmicIcon__Hamburger.jsx"
+          "moduleFilePath": "components/plasmic/profound_inc/icons/PlasmicIcon__Hamburger.jsx"
         },
         {
           "id": "bdVbgoNOo6C7",
           "name": "CheckIcon",
-          "moduleFilePath": "plasmic/profound_inc/icons/PlasmicIcon__Check.jsx"
+          "moduleFilePath": "components/plasmic/profound_inc/icons/PlasmicIcon__Check.jsx"
         },
         {
           "id": "ro_XxoecI0Ma",
           "name": "ChevronRightIcon",
-          "moduleFilePath": "plasmic/profound_inc/icons/PlasmicIcon__ChevronRight.jsx"
+          "moduleFilePath": "components/plasmic/profound_inc/icons/PlasmicIcon__ChevronRight.jsx"
         },
         {
           "id": "yTMaPiGVwqJX",
           "name": "CheckSvgIcon",
-          "moduleFilePath": "plasmic/profound_inc/icons/PlasmicIcon__CheckSvg.jsx"
+          "moduleFilePath": "components/plasmic/profound_inc/icons/PlasmicIcon__CheckSvg.jsx"
         },
         {
           "id": "xiv_f4cuMAMF",
           "name": "FacebookSvgIcon",
-          "moduleFilePath": "plasmic/profound_inc/icons/PlasmicIcon__FacebookSvg.jsx"
+          "moduleFilePath": "components/plasmic/profound_inc/icons/PlasmicIcon__FacebookSvg.jsx"
         },
         {
           "id": "XfLh9yGORwfX",
           "name": "TwitterSvgIcon",
-          "moduleFilePath": "plasmic/profound_inc/icons/PlasmicIcon__TwitterSvg.jsx"
+          "moduleFilePath": "components/plasmic/profound_inc/icons/PlasmicIcon__TwitterSvg.jsx"
         },
         {
           "id": "NKLBvGbRCB55",
           "name": "InstagramSvgIcon",
-          "moduleFilePath": "plasmic/profound_inc/icons/PlasmicIcon__InstagramSvg.jsx"
+          "moduleFilePath": "components/plasmic/profound_inc/icons/PlasmicIcon__InstagramSvg.jsx"
         },
         {
           "id": "1Wm2sHRhIYtr",
           "name": "LinkedinSvgIcon",
-          "moduleFilePath": "plasmic/profound_inc/icons/PlasmicIcon__LinkedinSvg.jsx"
+          "moduleFilePath": "components/plasmic/profound_inc/icons/PlasmicIcon__LinkedinSvg.jsx"
         },
         {
           "id": "dxK1ixTNzAEl",
           "name": "IconArrowRightSvgIcon",
-          "moduleFilePath": "plasmic/profound_inc/icons/PlasmicIcon__IconArrowRightSvg.jsx"
+          "moduleFilePath": "components/plasmic/profound_inc/icons/PlasmicIcon__IconArrowRightSvg.jsx"
         },
         {
           "id": "fUWZb7r3FcOT",
           "name": "CircleIcon",
-          "moduleFilePath": "plasmic/profound_inc/icons/PlasmicIcon__Circle.jsx"
+          "moduleFilePath": "components/plasmic/profound_inc/icons/PlasmicIcon__Circle.jsx"
         },
         {
           "id": "5riQ2OyNdWz4",
           "name": "ChevronDownIcon",
-          "moduleFilePath": "plasmic/profound_inc/icons/PlasmicIcon__ChevronDown.jsx"
+          "moduleFilePath": "components/plasmic/profound_inc/icons/PlasmicIcon__ChevronDown.jsx"
         }
       ],
       "images": [
@@ -665,10 +777,10 @@
         }
       ],
       "indirect": false,
-      "globalContextsFilePath": "plasmic/profound_inc/PlasmicGlobalContextsProvider.jsx",
+      "globalContextsFilePath": "components/plasmic/profound_inc/PlasmicGlobalContextsProvider.jsx",
       "splitsProviderFilePath": "",
-      "styleTokensProviderFilePath": "plasmic/profound_inc/PlasmicStyleTokensProvider.jsx",
-      "projectModuleFilePath": "plasmic/profound_inc/plasmic.jsx",
+      "styleTokensProviderFilePath": "components/plasmic/profound_inc/PlasmicStyleTokensProvider.jsx",
+      "projectModuleFilePath": "components/plasmic/profound_inc/plasmic.jsx",
       "codeComponents": [
         {
           "id": "Hwr4RN0zZXkj",
@@ -692,7 +804,7 @@
         "id": "EpPsfinF5moi",
         "name": "Screen",
         "projectId": "ddT7wfnzx79n44ty2Sa9LN",
-        "contextFilePath": "plasmic/profound_inc/PlasmicGlobalVariant__Screen.jsx"
+        "contextFilePath": "components/plasmic/profound_inc/PlasmicGlobalVariant__Screen.jsx"
       }
     ]
   },
