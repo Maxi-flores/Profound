@@ -1,11 +1,11 @@
 {
-  "name": "profound",
+  "name": "Profound",
   "version": "1.0.0",
   "private": true,
   "description": "A modern Next.js + Plasmic web project for Profound Inc.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "NEXT_FAST_REFRESH=0 NEXT_DISABLE_SWC_NATIVE=1 NEXT_TELEMETRY_DISABLED=1 next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -28,8 +28,9 @@
   },
   "homepage": "https://github.com/Maxi-flores/Profound#readme",
   "dependencies": {
-    "@plasmicapp/loader-nextjs": "^1.0.442",
-    "@plasmicapp/react-web": "^0.2.406",
+    "@plasmicapp/host": "^1.0.228",
+    "@plasmicapp/loader-nextjs": "^1.0.444",
+    "@plasmicapp/react-web": "^0.2.407",
     "@plasmicpkgs/plasmic-embed-css": "^0.1.213",
     "@plasmicpkgs/react-aria": "^0.0.155",
     "next": "^15.5.6",
